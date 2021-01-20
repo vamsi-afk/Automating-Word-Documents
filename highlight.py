@@ -2,9 +2,9 @@ import win32com.client as win32
 
 word = win32.gencache.EnsureDispatch('Word.Application')
 word.Visible = True
-doc = word.Documents.Open("C:\\Users\\ThePu\\Desktop\\20101.docx")
+doc = word.Documents.Open("fullpathofyourdoc.docx")
 
-Arr=["and", "the", "Global","What"]
+Arr=[] //insert the words u want to highlight in yellow.
 
 for word_t in doc.Words:
 	ele = str(word_t)
