@@ -48,4 +48,4 @@ for word in doc.Words:
         word.HighlightColorIndex = 7
     if k:
         print(k)
-        word.HighlightColorIndex = 7
+        word.HighlightColorIndex = 7 
